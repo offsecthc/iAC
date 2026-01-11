@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GroupName</key>
+	<string>wheel</string>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.MobileFileIntegrity</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/var/jb/bin/zsh</string>
+		<string>/var/jb/usr/libexec/Starter.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+	<integer>0</integer>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>
